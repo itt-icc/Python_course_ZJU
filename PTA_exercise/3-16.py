@@ -1,0 +1,5 @@
+a=input().replace(' ','')
+b=input().replace(' ','')
+c=a.replace(b.upper(),'')
+d=c.replace(b.lower(),'')
+print("result: {:s}".format(d))
